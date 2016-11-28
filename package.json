@@ -1,0 +1,42 @@
+{
+    "author": "MildMastermind",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "hitpoint",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "HitPoint",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "CharName[5]",
+            "MaxHP[5]"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/HP menu logo.png",
+                    "menuIcon": true,
+                    "name": "HP_MENU",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "0019f878-7237-4e26-bcaa-bb45ad936636",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
